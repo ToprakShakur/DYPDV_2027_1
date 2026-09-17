@@ -16,7 +16,5 @@ de Terreno y Navegacion (NavMesh)
 2. Abrir Unity Hub y seleccionar el proyecto de la carpeta
 	Laboratorio/Practica02_3D
 3. Ejecutar la escena desde el editor 
-	Para mover la capsula se usaran las flechas direccionales.
-	Para cambiar la camara es con el boton tabulador.
-	Para dar salto del "Agente" y pasar los obstaculos es con la tecla espacio.
-	Al mover la capsula podemos salir de la plataforma y la capsula caera.
+	El proposito de la practica es crear un agente navegante donde al hacer click
+	sobre el el terreno el agente navegue a ese punto en otro caso navegara de manera aleatoria.
