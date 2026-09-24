@@ -139,12 +139,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3997846d7c1fa62429dbe9c3a2f6890c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  velocidadActual: 0
-  velocidadMax: 5
-  aceleracion: 10
-  velocidadVertical: 0
-  gravedad: -20
-  tiempoMaxSalto: 0.2
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
@@ -250,7 +244,7 @@ GameObject:
   - component: {fileID: 1352563387}
   m_Layer: 0
   m_Name: Plataforma
-  m_TagString: Suelo
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -317,7 +311,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -0.164, y: -1.051, z: 0}
-  m_LocalScale: {x: 6.9625, y: 1, z: 1}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -351,7 +345,7 @@ BoxCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -375,17 +369,13 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 32050537270313742, guid: ea59fff8a96feb7449c8e7fb34a52518, type: 3}
-      propertyPath: enSuelo
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 2537857272572141774, guid: ea59fff8a96feb7449c8e7fb34a52518, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2537857272572141774, guid: ea59fff8a96feb7449c8e7fb34a52518, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.14
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2537857272572141774, guid: ea59fff8a96feb7449c8e7fb34a52518, type: 3}
       propertyPath: m_LocalPosition.z
@@ -421,19 +411,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2915143068595680637, guid: ea59fff8a96feb7449c8e7fb34a52518, type: 3}
       propertyPath: m_Size.x
-      value: 0.8704089
+      value: 1.0177507
       objectReference: {fileID: 0}
     - target: {fileID: 2915143068595680637, guid: ea59fff8a96feb7449c8e7fb34a52518, type: 3}
       propertyPath: m_Size.y
-      value: 1.1402388
+      value: 1.3428338
       objectReference: {fileID: 0}
     - target: {fileID: 2915143068595680637, guid: ea59fff8a96feb7449c8e7fb34a52518, type: 3}
       propertyPath: m_Offset.x
-      value: -0.16718036
+      value: -0.19787657
       objectReference: {fileID: 0}
     - target: {fileID: 2915143068595680637, guid: ea59fff8a96feb7449c8e7fb34a52518, type: 3}
       propertyPath: m_Offset.y
-      value: -0.061106205
+      value: -0.021201104
       objectReference: {fileID: 0}
     - target: {fileID: 2915143068595680637, guid: ea59fff8a96feb7449c8e7fb34a52518, type: 3}
       propertyPath: m_SpriteTilingProperty.pivot.x
@@ -466,14 +456,6 @@ PrefabInstance:
     - target: {fileID: 6471388566002936371, guid: ea59fff8a96feb7449c8e7fb34a52518, type: 3}
       propertyPath: m_Name
       value: Jugador
-      objectReference: {fileID: 0}
-    - target: {fileID: 7479757115953042344, guid: ea59fff8a96feb7449c8e7fb34a52518, type: 3}
-      propertyPath: m_GravityScale
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7479757115953042344, guid: ea59fff8a96feb7449c8e7fb34a52518, type: 3}
-      propertyPath: m_CollisionDetection
-      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7512531459929804806, guid: ea59fff8a96feb7449c8e7fb34a52518, type: 3}
       propertyPath: m_Size.x
