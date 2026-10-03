@@ -1,8 +1,8 @@
-# Proyecto 3D - Práctica 2 (Unity)
+# Proyecto 3D - Práctica 3 (Unity)
 
 ##  Descripción
-Este proyecto corresponde a la *Práctica 2 de Laboratorio en Unity 3D* donde se introducen conceptos 
-de Terreno y Navegacion (NavMesh)
+Este proyecto corresponde a la *Práctica 3 de Laboratorio en Unity 3D* donde se introducen conceptos 
+de Fisica, Colisiones e Interaccion.
 
 ##  Requisitos
 - Unity Hub instalado.
@@ -14,7 +14,9 @@ de Terreno y Navegacion (NavMesh)
    ```bash
    git clone https://github.com/ToprakShakur/Programacion_Videojuegos.git ```
 2. Abrir Unity Hub y seleccionar el proyecto de la carpeta
-	Laboratorio/Practica02_3D
-3. Ejecutar la escena desde el editor 
-	El proposito de la practica es crear un agente navegante donde al hacer click
-	sobre el el terreno el agente navegue a ese punto en otro caso navegara de manera aleatoria.
+	Laboratorio/Practica03_3D
+3. Ejecutar la escena desde el editor El proposito de la practica es introducir los 
+	fundamentos de interaccion fisica en 3D. 
+	- El objeto PlayerBody podra moverse e interactuar con el entorno.
+	- Colicionar con los objetos puestos en el campo.
+	- Recoger objetos al tocarlos.

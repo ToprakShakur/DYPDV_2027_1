@@ -38,5 +38,7 @@ public class PlayerMovement : MonoBehaviour
 
         rb.velocity = pushDir * 4f;
     }
+
+
 }
 
