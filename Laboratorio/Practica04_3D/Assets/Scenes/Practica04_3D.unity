@@ -246,7 +246,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   target: {fileID: 1592487209}
-  distance: 5
+  distance: 60
   height: 2
   smoothSpeed: 10
 --- !u!81 &617788282
