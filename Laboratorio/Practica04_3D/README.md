@@ -1,8 +1,9 @@
-# Proyecto 3D - Práctica 3 (Unity)
+# Proyecto 3D - Práctica 4 (Unity)
 
 ##  Descripción
-Este proyecto corresponde a la *Práctica 3 de Laboratorio en Unity 3D* donde se introducen conceptos 
-de Fisica, Colisiones e Interaccion.
+Este proyecto corresponde a la *Práctica 4 de Laboratorio en Unity 3D* donde se introducen conceptos 
+de Animacion de Personaje (Animator, Estados y Root Motion).
+Se descargo un modelo 3D y animaciones para poder unir y modificar.
 
 ##  Requisitos
 - Unity Hub instalado.
@@ -14,9 +15,10 @@ de Fisica, Colisiones e Interaccion.
    ```bash
    git clone https://github.com/ToprakShakur/Programacion_Videojuegos.git ```
 2. Abrir Unity Hub y seleccionar el proyecto de la carpeta
-	Laboratorio/Practica03_3D
+	Laboratorio/Practica04_3D
 3. Ejecutar la escena desde el editor El proposito de la practica es introducir los 
-	fundamentos de interaccion fisica en 3D. 
-	- El objeto PlayerBody podra moverse e interactuar con el entorno.
-	- Colicionar con los objetos puestos en el campo.
-	- Recoger objetos al tocarlos.
+	Fundamentos de Animacion de Personaje. 
+	- El objeto PlayerBody podra activar las animaciones mediante Root Motion.
+		- Idle -> Walk -> Run
+		- Idle -> Jump
+	
